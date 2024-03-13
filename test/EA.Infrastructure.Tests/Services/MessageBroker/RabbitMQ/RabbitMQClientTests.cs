@@ -20,7 +20,7 @@ public class RabbitMQClientTests
         {
             //// Azure
             Hostname = "primehubs.one",
-            Port = 30672,
+            Port = 30673,
             VirtualHost = "",
             //VirtualHost = "finance", // If you want to add virtualHost you need to add only the name 'finance'
             UserName = "myuser",
