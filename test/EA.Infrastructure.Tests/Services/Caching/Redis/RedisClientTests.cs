@@ -14,7 +14,7 @@ public class RedisClientTests
     {
         //string ConnectionString = "localhost:6379";
 
-        string ConnectionString = "38.242.226.210:31470,ssl=False,abortConnect=False";
+        string ConnectionString = "primehubs.one:30079,password=mypassword,ssl=False,abortConnect=False";
         var redisOptions = new RedisClientOptions(ConnectionString)
         {
             Enable = true,

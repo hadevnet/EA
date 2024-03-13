@@ -19,12 +19,12 @@ public class RabbitMQClientTests
         var options = new RabbitMQOptions
         {
             //// Azure
-            Hostname = "38.242.226.210",
-            Port = 32035,
+            Hostname = "primehubs.one",
+            Port = 30672,
             VirtualHost = "",
             //VirtualHost = "finance", // If you want to add virtualHost you need to add only the name 'finance'
-            UserName = "guest",
-            Password = "guest"
+            UserName = "myuser",
+            Password = "mypassword"
 
             //// Local Host
             //Hostname = "localhost",

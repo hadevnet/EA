@@ -15,6 +15,6 @@ public class LoggingBehaviour<TRequest> : IRequestPreProcessor<TRequest> where T
     public async Task Process(TRequest request, CancellationToken cancellationToken)
     {
         var requestName = typeof(TRequest).Name;
-        _logger.LogInformation($"BiUM Request: {requestName} {request}");
+        _logger.LogInformation($"EA Request: {requestName} {request}");
     }
 }

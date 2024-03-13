@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/test/BiUM.Infrastructure.Tests/bin/Debug/net7.0/BiUM.Infrastructure.Tests.dll",
+            "program": "${workspaceFolder}/test/EA.Infrastructure.Tests/bin/Debug/net7.0/EA.Infrastructure.Tests.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/test/BiUM.Infrastructure.Tests",
+            "cwd": "${workspaceFolder}/test/EA.Infrastructure.Tests",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
